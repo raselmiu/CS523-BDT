@@ -1,0 +1,3 @@
+# Command used for running the jar file
+hadoop jar /home/cloudera/Desktop/BDT/lab3/q2/AverageUsingCombiner.jar AverageUsingCombiner input output
+

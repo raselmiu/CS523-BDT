@@ -1,0 +1,25 @@
+{
+  "Year" : 2018,
+  "MaxTemp" : 30,
+  "StationId" : "011990-99999"
+}
+{
+  "Year" : 1950,
+  "MaxTemp" : 2,
+  "StationId" : "011990-99999"
+}
+{
+  "Year" : 1949,
+  "MaxTemp" : 11,
+  "StationId" : "012650-99999"
+}
+{
+  "Year" : 1902,
+  "MaxTemp" : 2,
+  "StationId" : "029810-99999"
+}
+{
+  "Year" : 1901,
+  "MaxTemp" : -5,
+  "StationId" : "029070-99999"
+}

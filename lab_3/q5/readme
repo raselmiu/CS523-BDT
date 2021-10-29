@@ -1,0 +1,2 @@
+# Command used for running the jar file
+hadoop jar /home/cloudera/Desktop/BDT/lab3/q5/AverageTemperatureUsingPartitioner.jar AverageTemperatureUsingPartitioner input output

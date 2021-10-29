@@ -1,0 +1,70 @@
+{
+  "stationId" : "011990-99999",
+  "temperature" : 30,
+  "year" : 2018
+}
+{
+  "stationId" : "011990-99999",
+  "temperature" : 2,
+  "year" : 1950
+}
+{
+  "stationId" : "011990-99999",
+  "temperature" : 2,
+  "year" : 2018
+}
+{
+  "stationId" : "011990-99999",
+  "temperature" : 0,
+  "year" : 1950
+}
+{
+  "stationId" : "011990-99999",
+  "temperature" : -1,
+  "year" : 1950
+}
+{
+  "stationId" : "012650-99999",
+  "temperature" : 11,
+  "year" : 1949
+}
+{
+  "stationId" : "012650-99999",
+  "temperature" : 7,
+  "year" : 1949
+}
+{
+  "stationId" : "029070-99999",
+  "temperature" : -5,
+  "year" : 1901
+}
+{
+  "stationId" : "029070-99999",
+  "temperature" : -6,
+  "year" : 1901
+}
+{
+  "stationId" : "029070-99999",
+  "temperature" : -7,
+  "year" : 1901
+}
+{
+  "stationId" : "029070-99999",
+  "temperature" : -9,
+  "year" : 1901
+}
+{
+  "stationId" : "029810-99999",
+  "temperature" : 2,
+  "year" : 1902
+}
+{
+  "stationId" : "029810-99999",
+  "temperature" : 1,
+  "year" : 1902
+}
+{
+  "stationId" : "029810-99999",
+  "temperature" : 0,
+  "year" : 1902
+}
