@@ -1,5 +1,4 @@
 # Big Data Technology
-## CS523-BDT
 
 - HDFS, YARN, Hadoop 1, 2 and beyond
 - Data Analysis Frameworks - MapReduce, Apache Pig and Hive
