@@ -1,0 +1,3 @@
+Flume [-0.2 point] You do not need below configuration.  Since, source type is spooldir and you already assigned it too. You can omit below configuration.
+
+agent1.sources.mySource.type = exec

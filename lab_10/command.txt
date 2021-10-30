@@ -1,0 +1,7 @@
+# param 1 = input directory
+# param 2 = start date
+# param 3 = end date
+# param 4 = question 1 output directory
+# param 5 = question 2 output directory
+spark-submit --class "SparkApacheLog" --master yarn /home/cloudera/BDT/lab10/jar/lab10.jar /user/cloudera/lab10/input 03/07/2004 03/08/2004 /user/cloudera/lab10/output/q1 /user/cloudera/lab10/output/q2
+

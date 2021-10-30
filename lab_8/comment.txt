@@ -1,0 +1,12 @@
+Good job! Just a few comments about Q3 though!
+
+The best way to count rows in HBase table is to use Apache Phoenix and fire a query for counting rows. This will be very fast as it uses the new Coprocessors feature of HBase.
+Or you can use "count" command (as you did) or "RowCounter" which fires MR job directly. This'll be slow compared to using Coprocessors!
+
+Q2: You have uploaded the wrong screenshot.
+
+ 
+
+RowCounter script:
+
+hbase org.apache.hadoop.hbase.mapreduce.RowCounter 'user'

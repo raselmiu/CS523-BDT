@@ -1,0 +1,5 @@
+Good job! Your ideas were clearly articulated and presented.
+
+Answer 5: No, it is not possible. You have to consider the replication factor too.
+
+560 TB * 3 replication factor = 1680 TB memory is needed to store the file. But 100 DNs together has only 1500TB space. Hence, not possible.

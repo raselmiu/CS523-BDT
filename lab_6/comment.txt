@@ -1,0 +1,33 @@
+[Homework Lab] : [-0.5 point] You are supposed to put the given dataset (ChicagoEmployeesDataset.csv) in  HDFS  and load from there not from local file system.
+
+load data local inpath '/home/cloudera/ChicagoEmployeesDataset.csv' overwrite
+into table employees;
+
+When you load file from hdfs to an EXTERNAL table, always make sure to use LOCATION keyword while creating table to specify the path, but not LOAD DATA command in order to avoid  moving of file to warehouse as:
+CREATE EXTERNAL TABLE ChicagoEmpTemp(
+Name STRING,
+.......
+.......
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+with serdeproperties (
+     'skip.header.line.count' = '1'
+  )
+STORED AS TEXTFILE
+LOCATION '/user/cloudera/hive/';       ---hdfs location
+
+Bonus question: [-0.5 point] Screenshots are not submitted
+
+[-1.5 point] the code is not running.
+
+I've modified your code as below, try running it out.
+
+CREATE EXTERNAL TABLE avro_records ROW FORMAT SERDE
+'org.apache.hadoop.hive.serde2.avro.AvroSerDe' 
+STORED AS INPUTFORMAT
+'org.apache.hadoop.hive.ql.io.avro.AvroContainerInputFormat' 
+OUTPUTFORMAT
+'org.apache.hadoop.hive.ql.io.avro.AvroContainerOutputFormat' 
+LOCATION '/user/cloudera/avro_hive'
+TBLPROPERTIES
+('avro.schema.url'='/user/cloudera/avro_hive/weather.avsc') ;
